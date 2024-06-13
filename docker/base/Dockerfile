@@ -1,11 +1,11 @@
-FROM openjdk:8u212-b04-jdk-stretch
+FROM eclipse-temurin:11-jdk
 LABEL author="Nathaniel Vala" email="nathanielvala@hotmail.com"
 LABEL version="0.2"
 
 ENV DAEMON_RUN=true
-ENV SPARK_VERSION=2.4.3
-ENV HADOOP_VERSION=2.7
-ENV SCALA_VERSION=2.12.4
+ENV SPARK_VERSION=3.5.1
+ENV HADOOP_VERSION=3.4.0
+ENV SCALA_VERSION=3.4.2
 ENV SCALA_HOME=/usr/share/scala
 ENV SPARK_HOME=/spark
 
