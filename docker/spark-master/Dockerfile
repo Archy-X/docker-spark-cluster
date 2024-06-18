@@ -1,4 +1,4 @@
-FROM spydernaz/spark-base:latest
+FROM localhost:5000/spark-base:latest
 
 COPY start-master.sh /
 
